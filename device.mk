@@ -41,3 +41,6 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 # common lentis
 $(call inherit-product, device/samsung/lentis-common/lentis.mk)
+
+# Device properties
+include $(LOCAL_PATH)/system_prop.mk
